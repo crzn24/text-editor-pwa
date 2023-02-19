@@ -24,13 +24,13 @@ export const putDb = async (content) => {
   console.log('Post to the database');
 
   // Create a connection to the database database and version we want to use.
-  const contactDb = await openDB('contact', 1);
+  const contactDb = await openDB('jate', 1);
 
   // Create a new transaction and specify the database and data privileges.
-  const tx = contactDb.transaction('contact', 'readwrite');
+  const tx = contactDb.transaction('jate', 'readwrite');
 
   // Open up the desired object store.
-  const store = tx.objectStore('contact');
+  const store = tx.objectStore('jate');
 
   // Use the .add() method on the store and pass in the content.
   const request = store.add({ name: name, home_phone: home, cell_phone: cell, email: email });
