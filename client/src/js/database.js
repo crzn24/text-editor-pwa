@@ -62,12 +62,14 @@ export const getDb = async () => {
   const store = tx.objectStore('jate');
 
   // Use the .getAll() method to get all data in the database.
-  const request = store.getAll();
+  const request = store.get(1); // not getall 
 
   // Get confirmation of the request.
   const result = await request;
   console.log('result.value', result);
-  return result;
+  return result ? result.value : error;
+  // if (result.value { return result.value})
+  // return result.value; // if result doesn't have a value you wouldn't want it to return anything and if it does have a value, then you want to return result.value
 
   // TODO: SHOULD ERROR MESSAGE GO HERE?
 };
