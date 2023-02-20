@@ -67,10 +67,7 @@ export const getDb = async () => {
   // Get confirmation of the request.
   const result = await request;
   console.log('result.value', result);
-  if (result.value) {
-    result.value
-  };
-  // return result ? result.value : error;
+  return result ? result.value : error;
   // if (result.value { return result.value})
   // return result.value; // if result doesn't have a value you wouldn't want it to return anything and if it does have a value, then you want to return result.value
 
