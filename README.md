@@ -18,7 +18,7 @@ SO THAT I can reliably retrieve them for later use
 ## Usage
 
 * [**Link to Repository**](https://github.com/crzn24/text-editor-pwa.git)
-* **Link to Deployed Application**]()
+* [**Link to Deployed Application**](https://text-editor-pwa-crzn24.herokuapp.com/)
 
 <!-- ![Screenshot of ](./assets/images/) -->
 
