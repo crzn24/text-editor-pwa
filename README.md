@@ -20,7 +20,7 @@ SO THAT I can reliably retrieve them for later use
 * [**Link to Repository**](https://github.com/crzn24/text-editor-pwa.git)
 * [**Link to Deployed Application**](https://text-editor-pwa-crzn24.herokuapp.com/)
 
-<!-- ![Screenshot of ](./assets/images/) -->
+![Screenshot of PWA text editor](./assets/images/text-editor-pwa.png)
 
 
 ## Credits
