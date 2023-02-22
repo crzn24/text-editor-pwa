@@ -17,7 +17,7 @@ const initdb = async () =>
 
 ///// Change contactDb to jateDb
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// Add logic to a method that accepts some content and adds it to the database
 export const putDb = async (content) => {
   // console.error('putDb not implemented'); 
 
@@ -39,13 +39,13 @@ export const putDb = async (content) => {
   const result = await request;
   console.log('🚀 - data saved to the database', result);
 
-  // TODO: SHOULD ERROR MESSAGE GO HERE?
+  // SHOULD ERROR MESSAGE GO HERE?
 }
 
 
 
 
-// TODO: Add logic for a method that gets all the content from the database
+// Add logic for a method that gets all the content from the database
 // Export a function we will use to GET to the database.
 export const getDb = async () => {
   // console.error('getDb not implemented'); 
@@ -71,7 +71,7 @@ export const getDb = async () => {
   // if (result.value { return result.value})
   // return result.value; // if result doesn't have a value you wouldn't want it to return anything and if it does have a value, then you want to return result.value
 
-  // TODO: SHOULD ERROR MESSAGE GO HERE?
+  // SHOULD ERROR MESSAGE GO HERE?
 };
 
 
