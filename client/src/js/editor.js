@@ -22,6 +22,8 @@ export default class {
       tabSize: 2,
     });
 
+    this.editor.setValue(localData || header); // added to ensure header loads as soon as app loads
+
     // When the editor is ready, set the value to whatever is stored in indexeddb.
     // Fall back to localStorage if nothing is stored in indexeddb, and if neither is available, set the value to header.
     getDb().then((data) => {
